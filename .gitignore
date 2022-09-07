@@ -1,6 +1,6 @@
 /Alarm Tags/
-/CSVExport/
-/Source/
+#/CSVExport/
+#/Source/
 /.idea/
 /__pycache__/
 /venv/
