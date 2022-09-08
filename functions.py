@@ -1,7 +1,8 @@
+import time
 import csv
 import re
-
 import openpyxl
+from microsofttranslate import get_key, translate
 
 
 def clean_textkeys():
@@ -71,7 +72,7 @@ def extract_tags_and_texts(filename):
                                    "$Groupkey": group_key, "$Location": "", "$Active": "1", "$Priority": "50",
                                    "$LogEnabled": "1", "$PlantID": plant_id, "$PlantType": " ", "$EquipmentID": "PLC",
                                    "$Devicename": "", "Cfg_Inst_Structure": "0"})
-            texts_out_array.append({"$Textkey": text_key, "$Subkey": "message", "$English": en_text, "$German":"",
+            texts_out_array.append({"$Textkey": text_key, "$Subkey": "message", "$English": en_text, "$German": "",
                                     "$French": "", "$Spanish": "", "$Portuguese": "", "$Chinese": "", "$Local1": "",
                                     "$Local2": "", "$Unicode1": "", "$Unicode2": ""})
 
@@ -95,3 +96,78 @@ def extract_tags_and_texts(filename):
     except FileNotFoundError:
         print('Error saving file. file not found')
 
+
+def translate_to_chinese(inputfile, outputfile):
+    """
+
+    :param inputfile: path of the input file. usually a file with english text only
+    :param outputfile: path of the output file. translated file will be saved here
+    :return: nothing
+    """
+    key = get_key()
+    fields = ("$Textkey", "$Subkey", "$English", "$German", "$French", "$Spanish", "$Portuguese", "$Chinese",
+              "$Local1", "$Local2", "$Unicode1", "$Unicode2")
+    out_array = []
+    try:
+        with open(inputfile, 'r', encoding='UTF-8') as file:
+            dt = csv.DictReader(file, delimiter=';')
+            for row in dt:
+                en_text = row[fields[fields.index('$English')]]
+                zh_text = localtranslation(en_text)
+                if not zh_text:
+                    print('no local translation found, searching online...')
+                    time.sleep(0.3)
+                    zh_text = translate(key, en_text, 'en', 'zh-cn')
+                    if zh_text:
+                        savetolocaltranslation(f'{en_text};{zh_text}')
+                print(f'{en_text} --> {zh_text}')
+                outrow = row
+                outrow[fields[fields.index('$Chinese')]] = zh_text
+                out_array.append(outrow)
+    except FileNotFoundError:
+        print('file not found')
+
+    try:
+        with open(outputfile, 'w', newline="", encoding='UTF-8') as file:
+            headers = fields
+            filters = csv.DictWriter(file, delimiter=';', fieldnames=headers, quoting=csv.QUOTE_NONNUMERIC)
+            filters.writerow(dict((heads, heads) for heads in headers))
+            filters.writerows(out_array)
+    except FileNotFoundError:
+        print('save file not found')
+
+
+def localtranslation(text):
+    translated_text = ''
+    array_text = False
+    text_index = 7              # length of text id is 7, and it should not be translated
+    array_patterns = re.compile('(ID_\d{4}\s)(\w*:\s?)?((PS)|(SL))\[\d{1,2}]')
+    findmatch = array_patterns.match(text)
+    if findmatch:
+        text_index = findmatch.end()
+        # print(text_index)
+    if len(text) < text_index:      # not a language text. language text always has text id of length 7 in the start
+        return ''
+    rev_index = len(text) - text_index
+    try:
+        with open('available_translations.csv', 'r', encoding='UTF-8') as file:
+            dt = csv.DictReader(file, delimiter=';')
+            for row in dt:
+                if text[-rev_index:] == row['en'][-rev_index:]:     # match last part of string first
+                    cn_index = len(row['en']) - len(row['en'][-rev_index:])
+                    translated_part = row['cn'][cn_index:]
+                    translated_text = f'{text[:text_index]}{translated_part}'
+                    break
+                else:
+                    translated_text = ''
+
+    except FileNotFoundError:
+        print('file not found')
+        translated_text = ''
+
+    return translated_text
+
+
+def savetolocaltranslation(text):
+    with open('available_translations.csv', 'a', encoding='UTF-8') as file:
+        file.write(f'{text}\n')

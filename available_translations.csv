@@ -1,0 +1,145 @@
+"en";"cn"
+ID_0001 HW: fuse monitoring circuit breaker power supply;ID_0001硬件：熔断器监控断路器电源
+ID_0002 HW: fuse monitoring 24V supply general;ID_0002 HW：保险丝监控24V电源一般
+ID_0003 HW: fuse monitoring 230V supply;ID_0003硬件：保险丝监控230V电源
+ID_0004 HW: fuse monitoring spare;ID_0004硬件：熔断器监控备件
+ID_0005 HW: fuse monitoring spare;ID_0005硬件：熔断器监控备件
+ID_0006 HW: fuse monitoring spare;ID_0006硬件：熔断器监控备件
+ID_0007 HW: fuse monitoring 24V supply field bus;ID_0007硬件：熔断器监控 24V 电源现场总线
+ID_0008 HW: fuse monitoring 24V supply I/O modules;ID_0008硬件：保险丝监控 24V 电源 I/O 模块
+ID_0009 HW: fuse monitoring spare;ID_0009硬件：熔断器监控备件
+ID_0010 HW: fuse monitoring 24V supply proportional valves;ID_0010 HW：熔断器监控 24V 电源比例阀
+ID_0011 HW: fuse monitoring spare;ID_0011硬件：熔断器监控备件
+ID_0012 HW: fuse monitoring spare;ID_0012硬件：熔断器监控备件
+ID_0013 HW: fuse monitoring spare;ID_0013硬件：熔断器监控备件
+ID_0014 HW: fuse monitoring spare;ID_0014硬件：熔断器监控备件
+ID_0015 HW: fuse monitoring spare;ID_0015硬件：熔断器监控备件
+ID_0016 HW: collective fault fuses;ID_0016硬件：集体故障保险丝
+ID_0017 SAFETY: emergency stop general;ID_0017 安全：急停一般
+ID_0018 SAFETY: emergency stop button operation desk;ID_0018 安全：急停按钮操作台
+ID_0019 SAFETY: emergency stop button spare;ID_0019 安全：急停按钮备用
+ID_0020 SAFETY: emergency stop button spare;ID_0020 安全：急停按钮备用
+ID_0021 SAFETY: emergency stop button spare;ID_0021 安全：急停按钮备用
+ID_0022 fire alarm;ID_0022火灾报警器
+ID_0023 HW: error ventilation paint systems;ID_0023硬件：错误通风涂料系统
+ID_0024 HW: error ventilation application station;ID_0024硬件：错误通风应用站
+ID_0025 HW: level container 1 waste solvent too high;ID_0025硬件：水平容器1废溶剂过高
+ID_0026 HW: level container 2 waste solvent too high;ID_0026硬件：容器2级废溶剂过高
+ID_0027 HW: level externalcontainer waste solvent too high;ID_0027硬件：外部容器废溶剂液位过高
+ID_0028 HW: spare;ID_0028 硬件：备用
+ID_0029 HW: spare;ID_0029 硬件：备用
+ID_0030 HW: fault communication with paint mix room;ID_0030硬件：与油漆混合室进行故障通信
+ID_0031 HW: fault communication with paint management system;ID_0031硬件：与涂料管理系统的故障通信
+ID_0032 HW: fault communication with stock management system;ID_0032硬件：与库存管理系统进行故障通信
+ID_0033 HW: fault communication with conveyor system;ID_0033硬件：与输送系统进行故障通信
+ID_0034 HW: fault communication with MACC station;ID_0034硬件：与MACC站的故障通信
+ID_0035 HW: fault communication with robot station AIR;ID_0035硬件：与机器人站AIR的故障通信
+ID_0036 HW: fault communication with robot station ESTA;ID_0036硬件：与机器人站 ESTA 的故障通信
+ID_0037 HW: fault communication spare;ID_0037硬件：故障通信备用
+ID_0038 HW: external type number off range;ID_0038 HW：外部类型编号关闭范围
+ID_0039 HW: external color number off range;ID_0039 HW：外部色号关闭范围
+ID_0040 HW: color group number off range;ID_0040 HW： 颜色组数偏离范围
+ID_0041 HW: ring pipe number off range;ID_0041 HW：环管数关范围
+ID_0042 HW: color valve number off range;ID_0042 HW：彩色阀号关范围
+ID_0043 HW: no data received from central control system;ID_0043硬件：无需从中央控制系统接收数据
+ID_0044 HW: type code not found;ID_0044硬件：未找到类型代码
+ID_0045 HW: color code not found;ID_0045硬件：未找到颜色代码
+ID_0046 HW: fault ventilation central rack;ID_0046硬件：故障通风中央机架
+ID_0047 HW: temperature control cabinet exceeded;ID_0047硬件：温度超过控制柜
+ID_0048 HW: up-/download application paint volumes not ok;ID_0048硬件：向上/下载应用程序油漆卷不正常
+ID_0049 HW: up-/download cycle programs assignment paint systems not ok;ID_0049硬件：启动/下载周期程序分配油漆系统不行
+ID_0050 HW: up-/download cleaning programs assignment main lines not ok;ID_0050硬件：上传/下载清理程序分配主线不行
+ID_0051 HW: up-/download cycle programs not ok;ID_0051硬件：向上/下载循环程序不正常
+ID_0052 HW: up-/download paint assignment not ok;ID_0052硬件：向上/下载油漆分配不行
+ID_0053 HW: up-/download waste paint volumes not ok;ID_0053硬件：向上/下载废油漆量不行
+ID_0054 HW: up-/download body assignment not ok;ID_0054硬件：向上/下载正文分配不正常
+ID_0055 HW: up-/download scraper programs assignment main lines not ok;ID_0055硬件：向上/下载刮刀程序分配主线不行
+ID_0056 HW: up-/download cycle programs assignment color distribution channels not ok;ID_0056硬件：上/下载周期程序分配颜色分发渠道不行
+ID_0057 HW: up-/download zone parameters not ok;ID_0057硬件：启动/下载区域参数不正常
+ID_0058 HW: up-/download spare;ID_0058硬件：上传/下载备件
+ID_0059 HW: spare;ID_0059 硬件：备用
+ID_0060 HW: spare;ID_0060 硬件：备用
+ID_0061 HW: fault PLC battery;ID_0061硬件：故障PLC电池
+ID_0062 paint volume tuning active;ID_0062油漆体积调节处于活动状态
+ID_0063 fire pre warning;ID_0063火灾预警
+ID_0064 HW: spare;ID_0064 硬件：备用
+ID_0065 HW: spare;ID_0065 硬件：备用
+ID_0066 HW: spare;ID_0066 硬件：备用
+ID_0067 HW: collective fault field bus;ID_0067硬件：集体故障现场总线
+ID_0068 HW: spare;ID_0068 硬件：备用
+ID_0069 HW: collective fault general;ID_0069 硬件：集合故障一般
+ID_0070 HW: fault comressed air infeed pneumatic cabinet;ID_0070硬件：故障应变进气气动柜
+ID_0071 HW: fault comressed air infeed application station 1;ID_0071硬件：故障应变进气应用站1
+ID_0072 HW: fault comressed air infeed application station 2;ID_0072硬件：故障应变进风应用站2
+ID_0073 HW: fault comressed air infeed application station 3;ID_0073硬件：故障应变进风应用站3
+ID_0074 HW: fault comressed air infeed application station 4;ID_0074硬件：故障应变进气应用站4
+ID_0075 HW: fault comressed air infeed application station 5;ID_0075硬件：故障应变进风应用站5
+ID_0076 HW: fault comressed air infeed application station 6;ID_0076硬件：故障应变进气应用站6
+ID_0077 HW: fault comressed air infeed application station 7;ID_0077硬件：故障应变进气应用站7
+ID_0078 HW: fault comressed air infeed application station 8;ID_0078硬件：故障应变进气应用站8
+ID_0079 HW: fault comressed air infeed application station 9;ID_0079硬件：故障应变进气应用站9
+ID_0080 HW: fault comressed air infeed application station 10;ID_0080硬件：故障应变进风应用站10
+ID_0081 HW: fault comressed air infeed application station 11;ID_0081硬件：故障应变进风应用站11
+ID_0082 HW: fault comressed air infeed application station 12;ID_0082硬件：故障应变进风应用站12
+ID_0083 HW: fault comressed air infeed application station 13;ID_0083硬件：故障应变进气应用站 13
+ID_0084 HW: fault comressed air infeed application station 14;ID_0084硬件：故障应变进气应用站14
+ID_0085 HW: fault comressed air infeed application station 15;ID_0085硬件：故障应变进气应用站 15
+ID_0086 HW: fault comressed air infeed application station 16;ID_0086硬件：故障应变进气应用站 16
+ID_0087 HW: fault comressed air infeed application station 17;ID_0087硬件：故障应变进气应用站 17
+ID_0088 HW: fault comressed air infeed application station 18;ID_0088硬件：故障应变进气应用站 18
+ID_0089 HW: fault comressed air infeed application station 19;ID_0089硬件：故障应变进气应用站 19
+ID_0090 HW: fault comressed air infeed application station 20;ID_0090硬件：故障应变进风应用站20
+ID_0091 HW: fault solvent supply application station 1;ID_0091硬件：故障溶剂供应应用站1
+ID_0092 HW: fault solvent supply application station 2;ID_0092硬件：故障溶剂供应应用站2
+ID_0093 HW: fault solvent supply application station 3;ID_0093硬件：故障溶剂供应应用站3
+ID_0094 HW: fault solvent supply application station 4;ID_0094硬件：故障溶剂供应应用站4
+ID_0095 HW: fault solvent supply application station 5;ID_0095硬件：故障溶剂供应应用站5
+ID_0096 HW: fault solvent supply application station 6;ID_0096硬件：故障溶剂供应应用站6
+ID_0097 HW: fault solvent supply application station 7;ID_0097硬件：故障溶剂供应应用站7
+ID_0098 HW: fault solvent supply application station 8;ID_0098硬件：故障溶剂供应应用站8
+ID_0099 HW: fault solvent supply application station 9;ID_0099硬件：故障溶剂供应应用站9
+ID_0100 HW: fault solvent supply application station 10;ID_0100硬件：故障溶剂供应应用站10
+ID_0101 HW: fault solvent supply application station 11;ID_0101硬件：故障溶剂供应应用站11
+ID_0102 HW: fault solvent supply application station 12;ID_0102硬件：故障溶剂供应应用站12
+ID_0103 HW: fault solvent supply application station 13;ID_0103硬件：故障溶剂供应应用站13
+ID_0104 HW: fault solvent supply application station 14;ID_0104硬件：故障溶剂供应应用站14
+ID_0105 HW: fault solvent supply application station 15;ID_0105硬件：故障溶剂供应应用站15
+ID_0106 HW: fault solvent supply application station 16;ID_0106硬件：故障溶剂供应应用站16
+ID_0107 HW: fault solvent supply application station 17;ID_0107硬件：故障溶剂供应应用站17
+ID_0108 HW: fault solvent supply application station 18;ID_0108硬件：故障溶剂供应应用站18
+ID_0109 HW: fault solvent supply application station 19;ID_0109硬件：故障溶剂供应应用站19
+ID_0110 HW: fault solvent supply application station 20;ID_0110硬件：故障溶剂供应应用站20
+ID_0111 HW: collective fault pneumatics;ID_0111硬件：集体故障气动
+ID_0112 PS[1] collective fault paint system;ID_0112 PS[1]集体故障涂料系统
+ID_0113 PS[1] warning paint system disabled;ID_0113 PS[1] 警告油漆系统禁用
+ID_0114 PS[1] fault color code not defined;ID_0114 PS[1] 故障颜色代码未定义
+ID_0115 PS[1] fault color group number off range;ID_0115 PS[1] 故障颜色组数关断范围
+ID_0116 PS[1] Waste level sensor alarm;ID_0116 PS[1] 废液位传感器报警器
+ID_0117 PS[1] Valve interlock fault KP1P and KP2P;ID_0117 PS[1] 阀门联锁故障 KP1P 和 KP2P
+ID_0118 PS[1] Valve interlock fault KQPL and KQV;ID_0118 PS[1] 阀门联锁故障 KQPL 和 KQV
+ID_0119 PS[1] Wrong Clean TP number;ID_0119 PS[1] 错误的清洁TP编号
+ID_0120 PS[1] Wrong Load TP number;ID_0120 PS[1] 错误加载 TP 编号
+ID_0121 PS[1] Wrong Reflow TP number;ID_0121 PS[1] 错误的回流焊TP编号
+ID_0122 PS[1] Wrong Manual Purge TP number;ID_0122 PS[1] 错误的手动清除TP编号
+ID_0123 PS[1] Clean TP timeout;ID_0123 PS[1] 清洁TP超时
+ID_0124 PS[1] Load TP timeout;ID_0124 PS[1] 加载 TP 超时
+ID_0125 PS[1] Reflow TP timeout;ID_0125 PS[1] 回流焊TP超时
+ID_0126 PS[1] Auto mode start failed;ID_0126 PS[1] 自动模式启动失败
+ID_0127 PS[1] Air Pressure failed;ID_0127 PS[1] 气压失效
+ID_0272 SL[1] None;ID_0272 SL[1] 无
+ID_0279 HW: SL[1] timeout pig cylinder source station;ID_0279硬件：SL[1] 超时清管筒源站
+ID_0280 HW: SL[1] timeout paint load ZMR;ID_0280硬件： SL[1] 超时油漆负载 ZMR
+ID_0281 HW: SL[1] timeout reflow QMP;ID_0281硬件：SL[1] 超时回流焊 QMP
+ID_0282 HW: SL[1] timeout paint load ZFS/QMP;ID_0282 硬件： SL[1] 超时油漆负荷 ZFS/QMP
+ID_0283 HW: SL[1] fault after paint load QFS occupied;ID_0283硬件：涂装负载QFS占用后SL[1]故障
+ID_0284 HW: SL[1] fault pigging line not ready;ID_0284硬件：SL[1]故障清管线未就绪
+ID_0285 HW: SL[1] fault scraper cycles;ID_0285硬件：SL[1] 故障刮刀循环
+ID_0286 HW: SL[1] fault hose cycles;ID_0286硬件：SL[1] 故障软管循环
+ID_0287 HW: SL[1] fault pig position after target cleaning;ID_0287硬件：SL[1] 目标清洗后的故障清管位置
+ID_0288 HW: SL[1] error pig pushing pressure out of tolerance;ID_0288硬件：SL[1] 误差猪推压超出公差范围
+ID_0289 SL[1] timeout reflow QMR;ID_0289 SL[1] 超时回流焊 QMR
+ID_0290 SL[1] fault paint load QMP not occupied;ID_0290 SL[1] 故障涂料负载 QMP 未占用
+ID_0291 SL[1] warning scraper cycles;ID_0291 SL[1] 警告刮刀循环
+ID_0292 SL[1] warning hose cycles;ID_0292 SL[1] 警告软管循环
+ID_0293 SL[1] collective warning main lines;ID_0293 SL[1] 集体预警主线
+ID_0294 SL[1] collective fault main line;ID_0294 SL[1] 集体故障主线
